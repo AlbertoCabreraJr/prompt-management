@@ -19,7 +19,7 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+  /* background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%); */
   position: absolute;
   content: '';
   z-index: 2;
@@ -30,7 +30,7 @@
 
 .main:after {
   content: '';
-  background-image: url('/assets/images/grid.svg');
+  /* background-image: url('/assets/images/grid.svg'); */
   z-index: 1;
   position: absolute;
   width: 100%;
