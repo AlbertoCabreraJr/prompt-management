@@ -1,34 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prompt Management Web App
 
-## Getting Started
+This Next.js project allows users to create, edit, and delete prompts that can be used for ChatGPT or related platforms. With this web app, you can easily manage and organize your prompts to enhance your conversational AI experiences.
 
-First, run the development server:
+## Features
+- **Create Prompts**: Users can create new prompts by providing a title and a description for the prompt. The created prompts will be saved in the web app for later use.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Edit Prompts**: Existing prompts can be easily edited to refine or update the content. Users can modify the title or description of a prompt and save the changes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Delete Prompts**: Users have the option to delete prompts that are no longer needed. This feature allows for prompt management and ensures a clutter-free prompt list.
